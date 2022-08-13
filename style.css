@@ -9,8 +9,7 @@
     flex-wrap: wrap;
     display: flex;
     align-items: flex-start;
-    color: lavender;
-   
+    color: white;
 }
 .header {
     background-image:url(closet.png);
