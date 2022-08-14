@@ -5,14 +5,28 @@
 }
 .words {
     font-size: 25px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
     color: white;
+    display: flex;
+    height: 50px;
+    /* margin-top: 10px; */
+}
+.btns{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
 }
 .header {
     background-image:url(closet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     width: 100%;
+}
+.logo{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
 }
