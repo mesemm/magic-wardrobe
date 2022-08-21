@@ -61,7 +61,7 @@
 }
 
 .firstProfile {
-  width: 50%;
+  width: 250px;
   border: 5px solid #c6b6a0;
   border-radius: 50%;
 }
@@ -139,16 +139,19 @@
 }
 .zurgg {
   display: flex;
-  margin-top: 150px;
-  width: 2px;
+  width: 160px;
   height: 200px;
-  justify-content: space-around;
+  margin: 0 10px 0 10px;
+}
+.zurgg img {
+  width: 160px;
+  height: 100%;
 }
 .alll {
+  margin-top: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  overflow: scroll;
 }
 .quote {
   color: white;
@@ -213,17 +216,17 @@ footer {
   font-size: 19px;
 }
 .b {
-  color: black;
+  color: white;
   font-size: 20px;
   width: 220px;
   height: 30px;
-  background-color: white;
+  background-color: #594d4d;
   font-style: italic;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  border: 3px solid grey;
+  border: 3px solid white;
   margin-left: 35px;
   margin-top: 25px;
 }
