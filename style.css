@@ -1,8 +1,8 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+<<<<<<< Updated upstream
 .words {
     font-size: 25px;
     justify-content: space-between;
@@ -17,16 +17,236 @@
     align-items: center;
     justify-content: space-evenly;
     width: 50%;
+=======
+.color{
+    background-color: #353030;
+    width: 100%;
+    height: 100%;
 }
+
+.word {
+    font-size: 2vw;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    height: 50px;
+>>>>>>> Stashed changes
+}
+.btns{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
 .header {
+<<<<<<< Updated upstream
     background-image:url(closet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+=======
+    background-image: url(closet.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     width: 100%;
+   /* margin-left: 110px; */
 }
 .logo{
     height: 150px;
     margin-top: 10px;
     margin-left: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.main img{
+    width: 45%;
+    width: 450px;
+    height: 600px;
+}
+.imgg{
+    width: 350px;
+>>>>>>> Stashed changes
+    height: 500px;
+    border: 5px solid #c6b6a0;
+    border-radius: 50%;
+}
+.box1 {
+    width: 100%;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 75px;
+}
+.mini1{
+    background-color: gray;
+    width: 250px;
+    height: 400px;
+    border: 5px solid white;
+}
+.mini2{
+    background-color: gray;
+    width: 250px;
+    height: 400px;
+    border: 5px solid white;
+}.mini3{
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    border: 5px solid white;
+}
+.mini4{
+    background-color: gray;
+    height: 400px;
+    width: 250px;
+    border: 5px solid white;
+}
+<<<<<<< Updated upstream
+.logo{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+=======
+.img{
+    height: 300px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.img2{
+    height:300px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.img3{
+    height:300px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.img4{
+    height:300px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.zurgg{
+    display: flex;
+    margin-top: 150px;
+    width: 2px;
+    height: 200px;
+    justify-content: space-around;
+   
+}
+.alll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.quote{
+    color: black;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 85px;
+    margin-left: 315px;
+}
+.m{
+    height: 5px;
+    width: 1000px;
+    background-color: white;
+    margin-left: 255px;
+}
+.m2{
+    height: 5px;
+    width: 1000px;
+    background-color: white;
+    margin-left: 305px;
+    margin-top: 30px;
+}
+.main3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 305px;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footerRight, .footerLeft{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.footerBtns div{
+    margin: 5px 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerLeft{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.footerLeft div{
+    margin-top: 20px;
+}
+.iconn{
+    margin-left: 125px;
+    margin-top: 15px;
+    font-size: 25px;
+
+}
+.a{
+    font-size: 19px;
+}
+.b{
+    color: black;
+    font-size: 20px;
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 3px solid grey;
+    margin-left: 35px;
+    margin-top: 25px;
+
+>>>>>>> Stashed changes
 }
