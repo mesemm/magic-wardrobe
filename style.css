@@ -17,6 +17,7 @@
   color: white;
   height: 50px;
 }
+
 .btns {
   height: 100%;
   display: flex;
@@ -112,7 +113,6 @@
   width: 250px;
   border: 5px solid white;
 }
-
 .img {
   height: 300px;
   width: 200px;
@@ -153,6 +153,7 @@
   flex-direction: row;
   overflow: scroll;
 }
+
 .quote {
   color: white;
   font-size: 30px;
