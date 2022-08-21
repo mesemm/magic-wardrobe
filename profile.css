@@ -13,13 +13,17 @@
     font-size: 25px;
 }
 .measurements {
-    margin-top: 20px;
-    height: 100%;
-    width: 400px;
-    background-color: wheat;
+    margin-left: 200px;
+    margin-top: 80px;
+    height: 600px;
+    width: 200px;
     color: black;
     display: flex;
-    justify-content: space-evenly;
-    font-size: 25px;
+    justify-content: space-around;
+    font-size: 20px;
     flex-direction: column;
+}
+.body {
+    margin-left: 300px;
+    margin-top: -700px;
 }

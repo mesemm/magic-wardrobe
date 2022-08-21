@@ -17,7 +17,8 @@
     color: white;
     height: 50px;
 }
-.btns{
+
+.btns {
     height: 100%;
     display: flex;
     align-items: center;
@@ -25,8 +26,10 @@
     width: 50%;
 }
 
-.header {
-
+.header { 
+    background-image:url(closet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(closet.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,6 +108,14 @@
     border: 5px solid white;
 }
 
+
+.logo{
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+
 .img{
     height: 300px;
     width: 200px;
@@ -145,7 +156,7 @@
   
 }
 .quote{
-    color: black;
+    color: white;
     font-size: 30px;
     font-style: italic;
     margin-top: 85px;
