@@ -151,6 +151,7 @@
   margin-top: 150px;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   overflow: scroll;
 }
 
@@ -236,4 +237,17 @@ footer {
 .b:hover {
   background-color: white;
   color: #594d4d;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: transparent;
 }
