@@ -230,4 +230,10 @@ footer {
   border: 3px solid white;
   margin-left: 35px;
   margin-top: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.b:hover {
+  background-color: white;
+  color: #594d4d;
 }
