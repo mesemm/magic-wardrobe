@@ -27,12 +27,15 @@
 }
 
 .header {
-  background-image: url(closet.png);
+  background-image: url(./zurag1.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
   width: 100%;
   /* margin-left: 110px; */
+}
+a {
+  text-decoration: none;
 }
 .logo {
   height: 150px;
