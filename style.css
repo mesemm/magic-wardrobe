@@ -251,3 +251,15 @@ footer {
 ::-webkit-scrollbar-thumb {
   background: transparent;
 }
+.c{
+    height: 300px;
+    width: 210px;
+
+}
+.c2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 35px;
+
+}

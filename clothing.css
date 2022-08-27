@@ -2,3 +2,99 @@
     margin: 0;
     padding: 0;
   }
+  .color{
+    width: 100%;
+    height: 100%;
+    background-color: #353030;
+  }
+  .header {
+    width: 100%;
+    height: 80px;
+    background-color: #252525;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.c{
+    height: 300px;
+    width: 200px;
+    margin:0 20px 0 20px 
+}
+.c2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: scroll;
+    margin-top: 75px;
+    color: white;
+    font-variant:initial;
+    font-size: 18px;
+}
+.b{
+    height: 300px;
+    width: 200px;
+    margin:0 20px 0 20px 
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: scroll;
+    margin-top: 75px;
+    color: white;
+    font-variant:initial;
+    font-size: 18px;
+}
+.a{
+  height: 300px;
+  width: 200px;
+  margin:0 20px 0 20px 
+}
+.a2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 75px;
+  color: white;
+  font-variant:initial;
+  font-size: 18px;
+}
+.d{
+  color: rgb(217, 230, 230);
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.e{
+  height: 300px;
+  width: 200px;
+  margin:0 20px 0 20px 
+}
+.e2{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  overflow: scroll;
+  margin-top: 75px;
+  color: white;
+  font-variant:initial;
+  font-size: 18px;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  }
