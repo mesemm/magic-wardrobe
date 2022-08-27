@@ -51,6 +51,9 @@ a {
   flex-direction: column;
   width: 100%;
 }
+a{
+  text-decoration: none;
+}
 
 .main img {
   width: 45%;
